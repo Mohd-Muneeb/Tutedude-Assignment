@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-logo {
+	/* position: absolute; */
+	width: 160px;
+	height: 63px;
+	/* left: 74px; */
+	/* top: 6px; */
+
+	background: url("./assets/nav-logo.svg");
+}
+.scroll::-webkit-scrollbar {
+	width: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background-color: #eeaeae;
+	border-radius: 2.5px;
+}
+
+.nav-link-1 {
+	width: 140px;
+	height: 22px;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 123.5%;
+	/* or 22px */
+
+	text-align: center;
+
+	color: rgba(128, 0, 128, 0.25);
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.scroll-bar {
+	overflow: scroll;
+}
+.scroll-bar::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+/* .scroll-bar::-webkit-scrollbar-thumb{
+	background:linear-gradient(#6D6D6D,#3D313100 )
+}
+
+.scroll-bar::-webkit-scrollbar-thumb{
+	background-color: ;
+} */
+
+.custom-blur-gradient {
+	background: linear-gradient(0deg, var(--p), var(--p) 40%, blur);
+}
+
+.desktop-view {
+	/* flex gap-6 right-0 font-medium; */
+	display: flex;
+	gap: 2.5rem;
+	/* flex-direction: row; */
+	right: 0px;
+	font-weight: 500;
+}
+
+.mobile-view {
+	display: flex;
+	/* flex-direction: column; */
+}
+
+svg {
+	fill: white;
+	color: #eeaeae;
+}
+
+.color-svg {
+	fill: white;
+	color: #eeaeae;
+}
+
+.gradient-shadow {
+	background: linear-gradient(-90deg, transparent 1%, #6d6d6d );
+}
