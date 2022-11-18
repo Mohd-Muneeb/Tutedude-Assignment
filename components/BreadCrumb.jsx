@@ -20,7 +20,7 @@ const BreadCrumb = () => {
 					{url != '/' ? `> Friends Refered` : ""}
 				</h1>
 			</div>
-			<a className="md:hidden ml-[10vw] w-[80vw] gap-2 flex text-p mb-8 hover:underline">
+			<a href="/" className="md:hidden ml-[10vw] w-[80vw] gap-2 flex text-p mb-8 hover:underline">
 				<img src={Arrow} /> Go Back
 			</a>
 		</div>

@@ -6,7 +6,7 @@ const EarningsData = () => {
 			<div className="flex flex-col gap-8 w-full">
 				<div className="grid grid-flow-row grid-cols-2 md:grid-cols-3 grid-rows-2 gap-2 place-items-center">
 					<h1 className="text-3xl font-semibold col-start-1 row-start-1 md:row-start-1 md:col-start-1">
-						<span className="font-normal text-sm text-p">Referral Earning</span> <br />₹ 20000
+						<span className="font-normal text-sm text-p">Referral Earning</span> <br />₹ 2500
 					</h1>
 
 					<h1 className="text-3xl font-semibold  col-start-1 row-start-2 md:row-start-1 md:col-start-2">
