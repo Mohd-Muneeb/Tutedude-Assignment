@@ -15,7 +15,7 @@ const EarningsData = () => {
 					<h1 className="text-3xl font-semibold ">
 						<span className="font-normal text-sm text-p">Wallet Balance</span> <br /> ₹ 500
 					</h1>
-					<div className="md:w-full row-start-2 col-span-1 md:col-span-3 grid place-items-center">
+					<div className="md:w-full row-start-2 col-span-1 pr-2 md:pr-0 pt-2 md:pt-0 md:col-span-3 grid place-items-center">
 						<button
 							className="p-3 bg-p shadow-xl rounded-2xl justify-center text-white items-center"
 							onClick={(e) => console.log("clicked")}
