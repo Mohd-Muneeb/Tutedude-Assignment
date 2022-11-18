@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<BrowserRouter>
 		<Routes>
-			<Route path="/" element={<Refer />} />
 			<Route path="/referral" element={<App />} />
+			<Route path="/" element={<Refer />} />
 		</Routes>
 	</BrowserRouter>
 );
