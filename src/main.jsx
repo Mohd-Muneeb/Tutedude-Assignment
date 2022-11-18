@@ -12,7 +12,7 @@ root.render(
 	<BrowserRouter>
 		<Routes>
 			<Route path="/" element={<Refer />} />
-			<Route path="/referal" element={<App />} />
+			<Route path="/referral" element={<App />} />
 		</Routes>
 	</BrowserRouter>
 );

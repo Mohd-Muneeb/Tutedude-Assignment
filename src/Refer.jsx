@@ -13,7 +13,7 @@ const Refer = () => {
             <Navbar />
             <div className="max-w-full  max-h-full mt-[75px] absolute mb-8">
                 <BreadCrumb />
-                <div className='bg-[#E5E5E5]'>
+                <div className=''>
                     <ReferralData />
                     <ReferralRules />
                     <FooterLinks />
