@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "../src/assets/arrow.svg";
+import Arrow from "../src/assets/Arrow.svg";
 
 const BreadCrumb = () => {
 	const url = window.location.pathname;
